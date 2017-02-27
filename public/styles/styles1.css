@@ -96,11 +96,14 @@ Navbar and Navigation Styles / Overrides
 .navbar-nav li a:focus {
 	background-color: transparent;
 }
-
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+	background-color: #fff!important;
+}
 .navbar-nav>li>.dropdown-menu {
 	background-color: rgba(0,0,0,0.5);
 }
-
+.dropdown:hover .dropdown-menu{display: block;}
 
 
 
@@ -129,6 +132,7 @@ Home Page Posters Styles
 	opacity: 0;
 	transition: 0.5s ease-in-out;
 	padding: 30px 15px;
+	width: 100%;
 }
 .poster-info-overlay h3 {
 	text-transform: uppercase;
