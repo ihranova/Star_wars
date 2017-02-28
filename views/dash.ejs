@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <% include partials/head.ejs %>
+
+  </head>
+  <body class = "dashboard">
+    <% include partials/header.ejs %>
+   <div>
+    <div id = "hero-image">
+    <h1 id = "hero-title"><%=dash %></h1>
+  </div>
+	<%if(show_message){ %>
+  <div class="alert alert-success">
+    <%= success_message%>
+  </div>
+  <%}%>
+
+     
+   <% include partials/script.ejs %>
+   <% include partials/footer.ejs %>
+
+  </body>
+</html>

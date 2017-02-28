@@ -21,10 +21,15 @@ app.get('/',routes.home);
 
 app.get('/star_wars_episode/:episode_number?',routes.movie_single);
 
+//login
+
+app.get('/login',routes.login);
+app.get('/dash', routes.dash);
+
+
 //NotFound
 
 app.get('*', routes.not_found);
-
 
 
 app.listen(3000,function(){

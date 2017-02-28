@@ -84,10 +84,6 @@ Navbar and Navigation Styles / Overrides
 	color: #fde5b9;
 }
 
-.navbar-nav > li:first-child {
-	margin-right: 25px;
-}
-
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
 	background-color: transparent;
 }
@@ -513,4 +509,20 @@ Page Not Found Template Styles
   font-weight: 400;
   font-size: 1.20em;
   letter-spacing: 0.4px;
+}
+
+/*LOGIN*/
+
+.login form{
+   max-width: 400px;
+   	
+   margin: 60px auto;
+}
+.login label{
+	padding: 5px 0 0 0;
+	margin: 0;
+}
+.login .btn{
+	    float: right;
+    margin-top: 20px;
 }
